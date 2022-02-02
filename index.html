@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -26,12 +27,52 @@
             <li>Spock vaporizes Rock</li>
             <li>(and as it always has) Rock crushes Scissors</li>
         </p>
+    </section>
 
+    <section id="games-area">
+        
+        <h2>Make your move by choosing one of the following:</h2>
 
+        <div id="rock">
+            <button data-type="rock">Rock</button>
+        </div>
+
+        <div id="paper">
+            <button data-type="paper">Paper</button>
+        </div>
+
+        <div id="scissors">
+            <button data-type="scissors">Scissors</button>
+        </div>
+
+        <div id="lizard">
+            <button data-type="lizard">Lizard</button>
+        </div>
+
+        <div id="">
+            <button data-type="spock">Spock</button>
+        </div>
 
     </section>
 
+    <section class="answer-area">
+
+        <p id="who-won"></p>
+
+    </section>
+
+    <section id="score-area">
+
+        <div class="pc">
+            <p>PC score: <span id="pc-score">0</span></p>
+        </div>
+
+        <div class="player">
+            <p>Player score: <span id="player-score">0</span></p>
+        </div>
+    </section>
 
 
+<script src="assets/js/script.js"></script>
 </body>
 </html>
