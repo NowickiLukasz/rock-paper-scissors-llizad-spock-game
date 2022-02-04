@@ -1,30 +1,32 @@
+let computerChoice = document.getElementsByClassName('computerChoice');
+let playerChoice = document.getElementsByClassName('playerChoice');
+
 // Load DOM and add event listener to buttons
 
 document.addEventListener("DOMContentLoaded", function(){
 
-    let buttons = ducument.getElementsByTagName("button");
+    let buttons = document.getElementsByTagName("button");
 
     for (let button of buttons){
+        button.addEventListener("click", function(){
 
-        if (this.getAttibute('data-type') === "submit"){// if clicked submit check who won pc or player
-            
-        }else if (this.getAttibute('data-type') === "rock"){// if clicked rock use rock function 
-            playerRock();
-            
-        }else if (this.getAttibute('data-type') === "paper"){ // if clicked paper use paper function 
-            playerPaper();
+            if (this.getAttribute("data-type") === "submit"){ //when clicked checks for answer on who won, pc or player
 
-        }else if (this.getAttibute('data-type') === "scissors"){ // if clicked scissors use paper function 
-            playerScissors();
-
-        }else if (this.getAttibute('data-type') === "lizard"){ // if clicked lizard use paper function 
-            playerLizard();
-            
-        }else if (this.getAttibute('data-type') === "spock"){ // if clicked spock use paper function 
-            playerSpock();
-    
+            }else if (this.getAttribute("data-type") === "rock"){ //when clicked runs rock function
+                
+            }else if (this.getAttribute("data-type") === "paper"){ //when clicked runs paper function
+                
+            }else if (this.getAttribute("data-type") === "scissors"){ //when clicked runs scissors function
+                
+            }else if (this.getAttribute("data-type") === "lizard"){ //when clicked runs lizard function
+                
+            }else if (this.getAttribute("data-type") === "spock"){ //when clicked runs spock function
+                
+            }
+        })
     }
 })
+
 
 
 
@@ -50,10 +52,9 @@ console.log(pcChoice);
 // Set functions for playerChoice
 
 function playerRock(){
-    let rock = document.getElementById('rock').innerText;
     
 }
-console.log(rock)
+
 
 function playerPaper(){
     
@@ -74,10 +75,29 @@ function playerSpock(){
 
 // Used to check answers of who won 
 
+/** Checks answer for if pcChoice and playerChoice are same, or winning or loosing
+*/
+function checkAnswer(){ 
+
+}
+
 
 // Correct answer incrementation
 
+function incrementCorrectAnswer(){
+    let oldScore = parseInt(document.getElementById('player-score').innerText);
+    document.getElementById('player-score').innerText = ++oldScore;
+}
+
 // Incorrect answer incrementation
+function incrementIncorrectAnswer(){
+    let oldScore = parseInt(document.getElementById('pc-score').innerText);
+    document.getElementById('pc-score').innerText = ++oldScore;
+}
 
 
 // Message on how the game was won
+
+function outcome(){
+    
+}

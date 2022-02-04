@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: greenyellow;
+    
 }
 
 /* #header{
@@ -50,4 +51,22 @@ p{
     margin-left: auto;
     margin-right: auto;
 
+}
+
+.playerChoice{
+    height: 50px;
+    width: 75px;
+    border: 2px solid black;
+    float: left;
+    margin-top: 10px;
+    margin-left:100px
+}
+
+.computerChoice{
+    height: 50px;
+    width: 75px;
+    border: 2px solid black;
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
 }
