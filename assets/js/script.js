@@ -2,6 +2,7 @@ let playerChoiceOption;
 let computerChoiceOption;
 
 // Load DOM and add event listener to buttons
+document.addEventListener("DOMContentLoaded", function(){
 
     let buttons = document.getElementsByTagName("button");
 
@@ -17,18 +18,18 @@ let computerChoiceOption;
 
     /** Game logic */
     function playRound(){
-    computerChoice();
+
+        computerChoice();
+        winner = playGame();
     
-
-
     }
+
     /** Randomly assigns a choice to the PC selection */
     function computerChoice(){
         let choices = ['rock', 'scissors', 'paper', 'lizard', 'spock'];
         let randomChoice = Math.floor(Math.random () * choices.length);
         computerChoiceOption = choices[randomChoice];
     }
-
 
     /** Calculates which choice has won the game */
     function playGame(){
@@ -141,8 +142,7 @@ let computerChoiceOption;
             return "pc";
         }
         
-    }
-    
+    }   
 
     // Correct answer incrementation
 
@@ -156,3 +156,16 @@ let computerChoiceOption;
         let oldScore = parseInt(document.getElementById('pc-score').innerText);
         document.getElementById('pc-score').innerText = ++oldScore;
     }
+
+    /** Prints outsome to the game screen */
+    function displayRoundOutcome(winner){
+        if (winner == "player"){
+            document.getElementById("who-won").innerHTML = "Player chose " + playerChoiceOption + " and PC chose " + computerChoiceOption + "." + " You win!"; 
+        }
+
+        if (winner == "pc"){
+            document.getElementById("who-won").innerHTML = "PC chose " +computerChoiceOption + " and Player chose " + playerChoiceOption + "." + " You lose!"; 
+        }
+    }
+    
+})
