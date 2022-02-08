@@ -15,26 +15,31 @@ let computerChoiceOption;
         playRound();
     }
 
+    /** Game logic */
+    function playRound(){
+    computerChoice();
+
+    }
+
+    function computerChoice(){
+
+    }
 
 
+    /** Calculates which choice has won the game */
+    function playGame(){
 
+        }
 
+    // Correct answer incrementation
 
+    function incrementCorrectAnswer(){
+        let oldScore = parseInt(document.getElementById('player-score').innerText);
+        document.getElementById('player-score').innerText = ++oldScore;
+    }
 
-
-
-
-
-
-// Correct answer incrementation
-
-function incrementCorrectAnswer(){
-    let oldScore = parseInt(document.getElementById('player-score').innerText);
-    document.getElementById('player-score').innerText = ++oldScore;
-}
-
-// Incorrect answer incrementation
-function incrementIncorrectAnswer(){
-    let oldScore = parseInt(document.getElementById('pc-score').innerText);
-    document.getElementById('pc-score').innerText = ++oldScore;
-}
+    // Incorrect answer incrementation
+    function incrementIncorrectAnswer(){
+        let oldScore = parseInt(document.getElementById('pc-score').innerText);
+        document.getElementById('pc-score').innerText = ++oldScore;
+    }
