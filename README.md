@@ -2,7 +2,7 @@
 
 ## User Experience
 
-## User Stories
+### User Stories
 
 - First Time Visitor 
     - As a first time visitor, I want to easily understand the purpose of the site.
@@ -15,7 +15,7 @@
     - As a returning visitor I want to be able to start the game with a score of 0.
 
 
-## Design
+### Design
 - Color Scheme
     - The site has 3 distinct colors:
     - Body background :  #faebd7
@@ -26,7 +26,7 @@
 - Typography
     - The Ubuntu Mono font is the main font used throught the game, with a monospace font used as a fallback. The Ubuntu Mono feels a little bit robotic to emulates how the game operates. 
 
-## WireFrame
+### WireFrame
 
 # Features
 
@@ -79,29 +79,28 @@
 
 # Deployment
 
-### GitHub Pages
+## GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/NowickiLukasz/rock-paper-scissors-llizad-spock-game)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
+## Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/NowickiLukasz/rock-paper-scissors-llizad-spock-game)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
-### Making a Local Clone
+## Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/NowickiLukasz/rock-paper-scissors-llizad-spock-game)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -122,3 +121,11 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
+
+# Credits
+
+## Code
+
+- [Random Array Item](https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array)
+
+- Incrementation of score: Was taken from the Love Maths project.

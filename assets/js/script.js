@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function(){
     
     }
 
+    // Code to grab random array item was used from this link: https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array
     /** Randomly assigns a choice to the PC selection */
     function computerChoice(){
         let choices = ['rock', 'scissors', 'paper', 'lizard', 'spock'];
