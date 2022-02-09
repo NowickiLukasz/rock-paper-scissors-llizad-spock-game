@@ -131,3 +131,5 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 - [Random Array Item](https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array)
 
 - Incrementation of score: Was taken from the Love Maths project.
+
+- [Unreachable code after return statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Stmt_after_return)
