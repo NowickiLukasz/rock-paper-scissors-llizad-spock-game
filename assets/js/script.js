@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function(){
         
          // Tie calculation
          if (playerChoiceOption === computerChoiceOption){ // tie
+            incrementTieScore();
             return "tie"
         }
         // Scissors options
@@ -157,6 +158,12 @@ document.addEventListener("DOMContentLoaded", function(){
     function incrementIncorrectAnswer(){
         let oldScore = parseInt(document.getElementById('pc-score').innerText);
         document.getElementById('pc-score').innerText = ++oldScore;
+    }
+
+    // Same score incrementation
+    function incrementTieScore() {
+        let oldScore = parseInt(document.getElementById("tie").innerText);
+        document.getElementById("tie").innerText = ++oldScore;
     }
 
     /** Prints outsome to the game screen */
