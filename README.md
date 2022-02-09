@@ -1,4 +1,6 @@
 # Rock, Paper, Scissors, Lizard, Spock Game
+- [Live Link](https://nowickilukasz.github.io/rock-paper-scissors-llizad-spock-game/)
+- [Repository](https://github.com/NowickiLukasz/rock-paper-scissors-llizad-spock-game)
 
 ## User Experience
 

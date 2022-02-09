@@ -166,8 +166,13 @@ document.addEventListener("DOMContentLoaded", function(){
         }
 
         if (winner == "pc"){
-            document.getElementById("who-won").innerHTML = "PC chose " +computerChoiceOption + " and Player chose " + playerChoiceOption + "." + " You lose!"; 
+            document.getElementById("who-won").innerHTML = "PC chose " + computerChoiceOption + " and Player chose " + playerChoiceOption + "." + " You lose!"; 
         }
+
+        if (winner == "tie"){
+            document.getElementById("who-won").innerHTML = "PC chose " + computerChoiceOption + " and Player chose " + playerChoiceOption + "." + " Its a Tie!"; 
+        }
+        
     }
     
 })
