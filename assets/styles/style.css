@@ -13,9 +13,9 @@ body{
     position: relative;
     top: 50px;
     margin: auto;
-    border: 2px solid black;
+    border: 2px solid #000000;
     text-align: center;
-    background-color: rgb(216, 191, 216);
+    background-color: #d8bfd8;
     
 }
 
@@ -36,7 +36,7 @@ body{
     height: 50px;
     width:100px;
     border-radius: 50px;
-    background-color: orange;
+    background-color: #ffa500;
     font-size: x-large;
     margin: 0 10px 10px 0;
 }

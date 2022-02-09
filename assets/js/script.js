@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
         computerChoice();
         winner = playGame();
+        displayRoundOutcome(winner);
     
     }
 

@@ -8,69 +8,70 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <header id="header">
-        <h1>Rock, Parper, Scissors, Lizard, Spock Game</h1>
-    </header>
+    <div id="container">  
+        <header id="header">
+            <h1>Rock, Parper, Scissors, Lizard, Spock Game</h1>
+        </header>
 
-    <section id="action-area">
+        <section id="action-area">
 
-        <p>Here are the rules for the game: </p>
-        <div class="instructions">
-            <p>Scissors cuts Paper</p>
-            <p>Paper covers Rock</p>
-            <p>Rock crushes Lizard</p>
-            <p>Lizard poisons Spock</p>
-            <p>Spock smashes Scissors</p>
-            <p>Scissors decapitates Lizard</p>
-            <p>Lizard eats Paper</p>
-            <p>Paper disproves Spock</p>
-            <p>Spock vaporizes Rock</p>
-            <p>(and as it always has) Rock crushes Scissors</p>
-        </div>  
-    </section>
+            <p>Here are the rules for the game: </p>
+            <div class="instructions">
+                <p>Scissors cuts Paper</p>
+                <p>Paper covers Rock</p>
+                <p>Rock crushes Lizard</p>
+                <p>Lizard poisons Spock</p>
+                <p>Spock smashes Scissors</p>
+                <p>Scissors decapitates Lizard</p>
+                <p>Lizard eats Paper</p>
+                <p>Paper disproves Spock</p>
+                <p>Spock vaporizes Rock</p>
+                <p>(and as it always has) Rock crushes Scissors</p>
+            </div>  
+        </section>
 
-    <section id="games-area">
-        
-        <h2>Make your move by choosing one of the following:</h2>
-        <div>
+        <section id="games-area">
+            
+            <h2>Make your move by choosing one of the following:</h2>
+            <div>
 
-            <button id= "rock" data-type="rock">Rock</button>
+                <button id= "rock" data-type="rock">Rock</button>
 
-            <button id= "paper" data-type="paper">Paper</button>
+                <button id= "paper" data-type="paper">Paper</button>
 
-            <button id= "scissors" data-type="scissors">Scissors</button>
+                <button id= "scissors" data-type="scissors">Scissors</button>
 
-            <button id= "lizard" data-type="lizard">Lizard</button>
+                <button id= "lizard" data-type="lizard">Lizard</button>
 
-            <button id= "spock" data-type="spock">Spock</button>
-        </div>
+                <button id= "spock" data-type="spock">Spock</button>
+            </div>
 
-        
+            
 
-    </section>
+        </section>
 
-    <section class="answer-area">
+        <section class="answer-area">
 
-        <div class ="computerChoice"></div>
-        <div class ="playerChoice"></div>
+            <div class ="computerChoice"></div>
+            <div class ="playerChoice"></div>
 
-        <p id="who-won"></p>
+            <p id="who-won"></p>
 
-    </section>
+        </section>
 
-    <section id="score-area">
+        <section id="score-area">
 
-        <div class="pc">
-            <p>PC score: <span id="pc-score">0</span></p>
-        </div>
+            <div class="pc">
+                <p>PC score: <span id="pc-score">0</span></p>
+            </div>
 
-        <div class="player">
-            <p>Player score: <span id="player-score">0</span></p>
-        </div>
-    </section>
+            <div class="player">
+                <p>Player score: <span id="player-score">0</span></p>
+            </div>
+        </section>
 
+    </div>  
+    <script src="./assets/js/script.js"></script>
 
-<script src="./assets/js/script.js"></script>
 </body>
 </html>
