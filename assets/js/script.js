@@ -7,13 +7,25 @@ document.addEventListener("DOMContentLoaded", function(){
     let buttons = document.getElementsByTagName("button");
 
     for (let button of buttons){ // listens for button clicks
-        button.addEventListener("click", playerChoice)
+        if (button.id == "reset"){
+            button.addEventListener("click", resetScore)
+        }else{
+            button.addEventListener("click", playerChoice)
+        }
+               
     }
 
     /** Selects buttons by attribute type */
     function playerChoice(event){
         playerChoiceOption = event.target.getAttribute("data-type");
         playRound();
+    }
+
+    // Resets scores
+    function resetScore(){
+        document.getElementById("tie").textContent = "0";
+        document.getElementById("player-score").textContent = "0";
+        document.getElementById("pc-score").textContent = "0";
     }
 
     /** Game logic */

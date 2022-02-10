@@ -44,6 +44,15 @@ body{
     margin: 0 10px 10px 0;
 }
 
+.reset div button{
+    height: 50px;
+    width:100px;
+    border-radius: 50px;
+    background-color: #ffa500;
+    font-size: x-large;
+    margin: 0 10px 10px 0;
+}
+
 #score-area{
     font-size: xx-large;
     margin-bottom: 25px;;
