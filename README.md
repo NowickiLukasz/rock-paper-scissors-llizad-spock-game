@@ -11,6 +11,7 @@
     - As a first time visitor, I want to be able to navigate the site with ease
     - As a first time visitor, I want to be able to understand the rules of the game. 
     - As a first time visitor, I want to see the score of the game and how the game was won.
+    - As a first time visitor, I want to be able to restart the game at anytime.
 
 - Returning Visitor
     - As a returning visitor, I want to be reminded about the game rules.
@@ -68,6 +69,8 @@
         - The rules of the game are included in the body of the game. 
     - As a first time visitor, I want to see the score of the game and how the game was won.
         - Once a selection is made, the result of the game is printed on the screen.
+    - As a first time visitor, I want to be able to restart the game at anytime.
+        - A reset button is functional that allows you to reset the game to a nill score.
     
 - Returning Visitor
     - As a returning visitor, I want to be reminded about the game rules.
