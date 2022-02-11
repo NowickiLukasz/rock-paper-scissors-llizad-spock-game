@@ -12,11 +12,13 @@
     - As a first time visitor, I want to be able to understand the rules of the game. 
     - As a first time visitor, I want to see the score of the game and how the game was won.
     - As a first time visitor, I want to be able to restart the game at anytime.
+    - As a first time visitor, I want to be able to see who won the round.
+
 
 - Returning Visitor
     - As a returning visitor, I want to be reminded about the game rules.
     - As a returning visitor I want to be able to start the game with a score of 0.
-
+    - As a returning visitor, I want to be able to see who won the round.
 
 ### Design
 - Color Scheme
@@ -57,6 +59,7 @@
     - GitHub is used to store the projects code after being pushed from Git.
 
 - Balsamiq
+    - Balsamiq is an app used to create wireframes to aid with the design process. 
 
 # Testing
 
@@ -71,15 +74,19 @@
         - Once a selection is made, the result of the game is printed on the screen.
     - As a first time visitor, I want to be able to restart the game at anytime.
         - A reset button is functional that allows you to reset the game to a nill score.
+    - As a first time visitor, I want to be able to see who won the round.
+        - An alert pops up once a pre determined score is reached
     
 - Returning Visitor
     - As a returning visitor, I want to be reminded about the game rules.
         - The rules of the game are included in the body of the game. 
     - As a returning visitor I want to be able to start the game with a score of 0.
-        - The game always starts on "0" score once the page is refreshed.
+        - The game always starts on "0" score once the page is loaded.
+    - As a returning visitor, I want to be able to see who won the round that was just played.
+        - An alert shows up after a score of 5 points is reached and then restarts the game to a score of "0".
 
 ## Further Testing
-
+- validators
 
 
 # Deployment
