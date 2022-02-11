@@ -159,26 +159,38 @@ document.addEventListener("DOMContentLoaded", function(){
         
     }   
 
-    // Correct answer incrementation
+    // Correct answer incrementation and looks for final score to restart the game
 
     function incrementCorrectAnswer(){
         let oldScore = parseInt(document.getElementById('player-score').innerText);
         document.getElementById('player-score').innerText = ++oldScore;
+        if (oldScore == 5){
+            alert("Player wins!")
+            endGame();
+        }
     }
 
-    // Incorrect answer incrementation
+    // Incorrect answer incrementation and looks for final score to restart the game
     function incrementIncorrectAnswer(){
         let oldScore = parseInt(document.getElementById('pc-score').innerText);
         document.getElementById('pc-score').innerText = ++oldScore;
+        if (oldScore == 5){
+            alert("PC wins!")
+            endGame();
+        }
     }
 
-    // Same score incrementation
+    // Same score incrementation and looks for final score to restart the game
     function incrementTieScore() {
         let oldScore = parseInt(document.getElementById("tie").innerText);
         document.getElementById("tie").innerText = ++oldScore;
+        if (oldScore == 5){
+            alert("Its a Tie!")
+            endGame();
+        }
     }
 
-    /** Prints outsome to the game screen */
+    /** Prints outcome to the game screen */
     function displayRoundOutcome(winner){
         if (winner == "player"){
             document.getElementById("who-won").innerHTML = "Player chose " + playerChoiceOption + " and PC chose " + computerChoiceOption + "." + " You win!"; 
@@ -191,7 +203,13 @@ document.addEventListener("DOMContentLoaded", function(){
         if (winner == "tie"){
             document.getElementById("who-won").innerHTML = "PC chose " + computerChoiceOption + " and Player chose " + playerChoiceOption + "." + " Its a Tie!"; 
         }
-        
+    }
+
+     // End game and resets score to 0
+     function endGame(){
+        document.getElementById("player-score").innerText = "0";
+        document.getElementById("pc-score").innerText = "0";
+        document.getElementById("tie").innerText = "0";
     }
     
 });
