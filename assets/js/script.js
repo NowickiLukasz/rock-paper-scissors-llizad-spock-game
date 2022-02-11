@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function(){
 
     for (let button of buttons){ // listens for button clicks
         if (button.id == "reset"){
-            button.addEventListener("click", resetScore)
+            button.addEventListener("click", resetScore);
         }else{
-            button.addEventListener("click", playerChoice)
+            button.addEventListener("click", playerChoice);
         }
                
     }
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function(){
          // Tie calculation
          if (playerChoiceOption === computerChoiceOption){ // tie
             incrementTieScore();
-            return "tie"
+            return "tie";
         }
         // Scissors options
         if ((playerChoiceOption === "scissors") && (computerChoiceOption === "paper")){ // win
@@ -194,4 +194,4 @@ document.addEventListener("DOMContentLoaded", function(){
         
     }
     
-})
+});

@@ -10,6 +10,7 @@ body{
     font-family: 'Ubuntu Mono', monospace;
 }
 
+/*Game container styling */
 #container{
     
     width: 100%;
@@ -17,15 +18,24 @@ body{
     top: 50px;
     margin: auto;
     border: 2px solid #000000;
+    border-radius: 50px;
     text-align: center;
     background-color: #d8bfd8;
     
 }
 
+/*Title sectino of game*/
 #header{
     margin-top: 25px;
 }
 
+/*Rules image*/
+#head-img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+/*Instruction section of the game*/
 #action-area{
     font-size: large;
     padding: 25px 0;
@@ -35,6 +45,7 @@ body{
     padding: 25px 0 15px 0;
 }
 
+/*Game button styling */
 #games-area div button{
     height: 50px;
     width:100px;
@@ -44,6 +55,7 @@ body{
     margin: 0 10px 10px 0;
 }
 
+/*Reset button styling */
 .reset div button{
     height: 50px;
     width:100px;
@@ -53,24 +65,45 @@ body{
     margin: 0 10px 10px 0;
 }
 
+/*Results/ score area styling */
 #score-area{
     font-size: xx-large;
     margin-bottom: 25px;;
 }
 
-@media screen and (min-width: 320px) and (max-width:420px) {
+
+/*Mobile device styling */
+@media screen and (min-width: 320px) and (max-width:480px) {
     #container{
         width:90%;
         padding: 10px;
     }
+
+    #head-img{
+        width:90%;
+        border-radius: 0px;
+    }
+    
 }
 
-@media screen and (min-width: 421px) and (max-width:700px) {
+/*Stying for image on smaller screens */
+@media screen and (min-width: 481px) and (max-width:580px) {
+    #head-img{
+        width:90%;
+    }
+}
+
+
+/*Tablet device styling */
+@media screen and (min-width: 481px) and (max-width:768px) {
     #container{
         width:90%;
     }
 }
 
+/*Responsive design*/
+
+/*Desktop styling */
 @media screen and (max-width:1200px) {
     #container{
         width:90%;
