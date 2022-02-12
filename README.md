@@ -4,20 +4,20 @@
 
 1. [User Experience](#user-experience)
     - [User stories](#user-stories)
-    - [Design]()
-    - [Wireframe]()
-2. [Features]()
-3. [Technologies Used]()
-    - [Language Used]()
-    - [Programs Used]()
-4. [Testing]()
-    - [Further Testing]()
-5. [Depoyment]()
-    - [GitHub Pages]()
-    - [Forking the GitHub Repository]()
-    - [Making a Local Clone]()
-6. [Credits]()
-    - [Code]()
+    - [Design](#design)
+    - [Wireframe](#wireframe)
+2. [Features](#features)
+3. [Technologies Used](#techonologie-used)
+    - [Language Used](#languages-used)
+    - [Programs Used](#programs-used)
+4. [Testing](#testing)
+    - [Further Testing](#further-testing)
+5. [Depoyment](#deployment)
+    - [GitHub Pages](#github-pages)
+    - [Forking the GitHub Repository](#forking-the-github-repository)
+    - [Making a Local Clone](#making-a-local-clone)
+6. [Credits](#credits)
+    - [Code](#code)
 
 - [Live Link](https://nowickilukasz.github.io/rock-paper-scissors-llizad-spock-game/)
 - [Repository](https://github.com/NowickiLukasz/rock-paper-scissors-llizad-spock-game)
@@ -59,7 +59,7 @@
 
 - Interactive Elements
 
-# Techonologie Used 
+# Techonologies Used 
 
 ## Languages Used 
 
