@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function(){
         document.getElementById("tie").textContent = "0";
         document.getElementById("player-score").textContent = "0";
         document.getElementById("pc-score").textContent = "0";
+        document.getElementById("who-won").textContent = "";
     }
 
     /** Game logic */
@@ -210,6 +211,7 @@ document.addEventListener("DOMContentLoaded", function(){
         document.getElementById("player-score").innerText = "0";
         document.getElementById("pc-score").innerText = "0";
         document.getElementById("tie").innerText = "0";
+        
     }
     
 });
