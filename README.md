@@ -17,14 +17,14 @@
     - [Forking the GitHub Repository]()
     - [Making a Local Clone]()
 6. [Credits]()
-    - [Code]
+    - [Code]()
 
 - [Live Link](https://nowickilukasz.github.io/rock-paper-scissors-llizad-spock-game/)
 - [Repository](https://github.com/NowickiLukasz/rock-paper-scissors-llizad-spock-game)
 
-## User Experience
+## User Experience <a name="user-experience"></a>
 
-### User Stories
+### User Stories <a name="user-stories"></a>
 
 - First Time Visitor 
     - As a first time visitor, I want to easily understand the purpose of the site.
@@ -40,7 +40,7 @@
     - As a returning visitor I want to be able to start the game with a score of 0.
     - As a returning visitor, I want to be able to see who won the round.
 
-### Design
+### Design <a name="design"></a>
 - Color Scheme
     - The site has 3 distinct colors:
     - Body background :  #faebd7
@@ -51,23 +51,23 @@
 - Typography
     - The Ubuntu Mono font is the main font used throught the game, with a monospace font used as a fallback. The Ubuntu Mono feels a little bit robotic to emulates how the game operates. 
 
-### WireFrame
+### WireFrame <a name="wireframes"></a>
 
-# Features
+# Features <a name="features"></a>
 
 - Responsive on all devices
 
 - Interactive Elements
 
-# Techonologie Used
+# Techonologie Used <a name="technology-used"></a>
 
-## Languages Used
+## Languages Used <a name="language-used"></a>
 
 - HTML
 - CSS
 - JavaScript
 
-## Programs Used
+## Programs Used <a name="program-used"></a>
 
 - Google Fonts:
     - Google fonts were used to import the 'Ubuntu Mono' font into the style.css file which is used in the project.
@@ -81,7 +81,7 @@
 - Balsamiq
     - Balsamiq is an app used to create wireframes to aid with the design process. 
 
-# Testing
+# Testing <a name="testing"></a>
 
 - First time Visitor
     - As a first time visitor, I want to easily understand the purpose of the site.
@@ -105,13 +105,13 @@
     - As a returning visitor, I want to be able to see who won the round that was just played.
         - An alert shows up after a score of 5 points is reached and then restarts the game to a score of "0".
 
-## Further Testing
+## Further Testing <a name="further-testing"></a>
 - validators
 
 
-# Deployment
+# Deployment <a name="depoyment"></a>
 
-## GitHub Pages
+## GitHub Pages <a name="github-pages"></a>
 
 The project was deployed to GitHub Pages using the following steps...
 
@@ -122,7 +122,7 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [in the "GitHub Pages" section.
 
-## Forking the GitHub Repository
+## Forking the GitHub Repository <a name="forking-repository"></a>
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
@@ -130,7 +130,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
-## Making a Local Clone
+## Making a Local Clone <a name="making-clone"></a>
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/NowickiLukasz/rock-paper-scissors-llizad-spock-game)
 2. Under the repository name, click "Clone or download".
@@ -154,9 +154,9 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 ```
 
-# Credits
+# Credits <a name="credits"></a>
 
-## Code
+## Code <a name="code"></a>
 
 - [Random Array Item](https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array)
 
