@@ -31,10 +31,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
     /** Game logic */
     function playRound(){
-
+        
         computerChoice();
         winner = playGame();
         displayRoundOutcome(winner);
+        
     
     }
 
@@ -211,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function(){
         document.getElementById("player-score").innerText = "0";
         document.getElementById("pc-score").innerText = "0";
         document.getElementById("tie").innerText = "0";
-        // document.getElementById("who-won").innerText = "";
+        document.getElementById("who-won").textContent = "";
     }
     
 });

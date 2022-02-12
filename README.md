@@ -53,7 +53,8 @@
 
 ### WireFrame 
 <details>
-    <summary>WireFrame</summary><img src="./document/RPSLS-wireframe.png">
+    <summary>WireFrame</summary>
+    <img src="./document/RPSLS-wireframe.png">
 </details>
 
 
@@ -88,18 +89,29 @@
 # Testing 
 
 - First time Visitor
-    1. As a first time visitor, I want to easily understand the purpose of the site.
-        - The game page has a clear title of what the page represents. 
+    1. As a first time visitor, I want to easily understand the purpose of the site.        
+        <details><summary>The game page has a clear title of what the page represents.</summary><img src=./document/rpsls-header.png>
+        </details> 
     2. As a first time visitor, I want to be able to navigate the site with ease.
-        - The site is consise with 5 buttons to control the game. 
+         <details><summary>The site is consise with 5 buttons to control the game. </summary>
+        <img src=./document/rpsls-action-buttons.png>
+        </details>
     3. As a first time visitor, I want to be able to understand the rules of the game.
-        - The rules of the game are included in the body of the game. 
+        <details><summary>The rules of the game are included in the body of the game. </summary>
+        <img src=./document/rpsls-rules.png>
+        </details>
     4. As a first time visitor, I want to see the score of the game and how the game was won.
-        - Once a selection is made, the result of the game is printed on the screen.
+        <details><summary>Once a selection is made, the result of the game is printed on the screen.</summary>
+        <img src=./document/rpsls-outcome-text.png>
+        </details>
     5. As a first time visitor, I want to be able to restart the game at anytime.
-        - A reset button is functional that allows you to reset the game to a nill score.
+        <details><summary>A reset button is functional that allows you to reset the game to a nill score.</summary>
+        <img src=./document/rpsls-reset-button.png>
+        </detials>
     6. As a first time visitor, I want to be able to see who won the round.
-        - An alert pops up once a pre determined score is reached
+        <details><summary>An alert pops up once a pre determined score is reached.</summary>
+        <img src=./document/rpsls-alert-win.png>
+        </details>
     
 - Returning Visitor
     1. As a returning visitor, I want to be reminded about the game rules.
