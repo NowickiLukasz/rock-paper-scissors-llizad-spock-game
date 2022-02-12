@@ -1,4 +1,24 @@
 # Rock, Paper, Scissors, Lizard, Spock Game
+
+## Table of content
+
+1. [User Experience]()
+    - [User stories]()
+    - [Design]()
+    - [Wireframe]()
+2. [Features]()
+3. [Technologies Used]()
+    - [Language Used]()
+    - [Programs Used]()
+4. [Testing]()
+    - [Further Testing]()
+5. [Depoyment]()
+    - [GitHub Pages]()
+    - [Forking the GitHub Repository]()
+    - [Making a Local Clone]()
+6. [Credits]()
+    - [Code]
+
 - [Live Link](https://nowickilukasz.github.io/rock-paper-scissors-llizad-spock-game/)
 - [Repository](https://github.com/NowickiLukasz/rock-paper-scissors-llizad-spock-game)
 
