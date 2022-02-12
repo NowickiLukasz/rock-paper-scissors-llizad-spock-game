@@ -52,6 +52,10 @@
     - The Ubuntu Mono font is the main font used throught the game, with a monospace font used as a fallback. The Ubuntu Mono feels a little bit robotic to emulates how the game operates. 
 
 ### WireFrame 
+<details>
+    <summary>WireFrame</summary><img src="./document/RPSLS-wireframe.png">
+</details>
+
 
 # Features 
 
@@ -84,25 +88,25 @@
 # Testing 
 
 - First time Visitor
-    - As a first time visitor, I want to easily understand the purpose of the site.
+    1. As a first time visitor, I want to easily understand the purpose of the site.
         - The game page has a clear title of what the page represents. 
-    - As a first time visitor, I want to be able to navigate the site with ease.
+    2. As a first time visitor, I want to be able to navigate the site with ease.
         - The site is consise with 5 buttons to control the game. 
-    - As a first time visitor, I want to be able to understand the rules of the game.
+    3. As a first time visitor, I want to be able to understand the rules of the game.
         - The rules of the game are included in the body of the game. 
-    - As a first time visitor, I want to see the score of the game and how the game was won.
+    4. As a first time visitor, I want to see the score of the game and how the game was won.
         - Once a selection is made, the result of the game is printed on the screen.
-    - As a first time visitor, I want to be able to restart the game at anytime.
+    5. As a first time visitor, I want to be able to restart the game at anytime.
         - A reset button is functional that allows you to reset the game to a nill score.
-    - As a first time visitor, I want to be able to see who won the round.
+    6. As a first time visitor, I want to be able to see who won the round.
         - An alert pops up once a pre determined score is reached
     
 - Returning Visitor
-    - As a returning visitor, I want to be reminded about the game rules.
+    1. As a returning visitor, I want to be reminded about the game rules.
         - The rules of the game are included in the body of the game. 
-    - As a returning visitor I want to be able to start the game with a score of 0.
+    2. As a returning visitor I want to be able to start the game with a score of 0.
         - The game always starts on "0" score once the page is loaded.
-    - As a returning visitor, I want to be able to see who won the round that was just played.
+    3. As a returning visitor, I want to be able to see who won the round that was just played.
         - An alert shows up after a score of 5 points is reached and then restarts the game to a score of "0".
 
 ## Further Testing 

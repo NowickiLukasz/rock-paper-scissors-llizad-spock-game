@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function(){
         playRound();
     }
 
-    // Resets scores
+    // Resets scores and text
     function resetScore(){
         document.getElementById("tie").textContent = "0";
         document.getElementById("player-score").textContent = "0";
@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded", function(){
         document.getElementById("player-score").innerText = "0";
         document.getElementById("pc-score").innerText = "0";
         document.getElementById("tie").innerText = "0";
-        
+        // document.getElementById("who-won").innerText = "";
     }
     
 });
