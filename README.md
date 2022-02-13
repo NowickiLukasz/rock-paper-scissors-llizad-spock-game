@@ -12,6 +12,7 @@
     - [Programs Used](#programs-used)
 4. [Testing](#testing)
     - [Further Testing](#further-testing)
+    - [Bugs](#bugs)
 5. [Depoyment](#deployment)
     - [GitHub Pages](#github-pages)
     - [Forking the GitHub Repository](#forking-the-github-repository)
@@ -123,6 +124,13 @@
         
 ## Further Testing 
 - validators
+
+## Bugs
+
+1. Outcome text does not hide once the game is started anew. 
+    <details><summary></summary>
+    <img src=./document/rpsls-outcome-text.png>
+    </details>
 
 
 # Deployment 
