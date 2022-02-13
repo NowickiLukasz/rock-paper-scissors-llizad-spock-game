@@ -71,6 +71,17 @@ body{
     margin-bottom: 25px;;
 }
 
+/*footer styling*/
+#footer{
+    text-align: center;
+    padding: 25px;
+}
+
+#footer a{
+    color: #000000;
+    text-decoration: none;
+}
+
 
 /*Mobile device styling */
 @media screen and (min-width: 320px) and (max-width:480px) {
