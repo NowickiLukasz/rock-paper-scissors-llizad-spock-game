@@ -90,6 +90,10 @@ body{
         padding: 10px;
     }
 
+    #header{
+        font-size: x-small;
+    }
+
     #head-img{
         width:90%;
         border-radius: 0px;

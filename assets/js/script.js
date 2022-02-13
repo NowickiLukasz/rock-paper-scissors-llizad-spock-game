@@ -208,7 +208,7 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 
      // End game and resets score to 0
-     function endGame(){
+    function endGame(){
         document.getElementById("player-score").innerText = "0";
         document.getElementById("pc-score").innerText = "0";
         document.getElementById("tie").innerText = "0";
