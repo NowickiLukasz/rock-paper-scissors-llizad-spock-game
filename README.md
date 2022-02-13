@@ -123,7 +123,32 @@
         - An alert shows up after a score of 5 points is reached and then restarts the game to a score of "0".
         
 ## Further Testing 
-- validators
+### Validation
+
+- HTML Validation
+<details><summary></summary>
+
+</details>
+
+- CSS validation
+<details><summary></summary>
+
+</details>
+
+- JavaScript Validation
+<details><summary></summary>
+
+</details>
+
+- Accessibility
+<details><summary></summary>
+
+</details>
+
+- Performance
+<details><summary></summary>
+
+</details>
 
 ## Bugs
 
