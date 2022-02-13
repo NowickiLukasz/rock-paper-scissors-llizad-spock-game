@@ -54,7 +54,7 @@
 ### WireFrame 
 <details>
     <summary>WireFrame</summary>
-    <img src="./document/RPSLS-wireframe.png">
+    <img src="./document/rpsls-wireframe.png">
 </details>
 
 
@@ -120,7 +120,7 @@
         - The game always starts on "0" score once the page is loaded.
     3. As a returning visitor, I want to be able to see who won the round that was just played.
         - An alert shows up after a score of 5 points is reached and then restarts the game to a score of "0".
-
+        
 ## Further Testing 
 - validators
 

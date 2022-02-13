@@ -24,7 +24,8 @@ body{
 
 /*Title sectino of game*/
 #header{
-    margin-top: 25px;
+    text-align: center;
+    padding: 25px;
 }
 
 /*Rules image*/
