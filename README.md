@@ -129,30 +129,40 @@
 ## Further Testing 
 ### Validation
 
-- HTML Validation
+### HTML Validation
+<details><summary>Screenshot</summary>
+<img src = ./document/rpsls-html.png>
+</details>
+
+### CSS validation
+<details><summary>Screenshot</summary>
+<img src = ./document/rpsls-css.png>
+</details>
+
+### JavaScript Validation
+<details><summary>Screenshot</summary>
+<img src = ./document/rpsls-jshint.png>
+</details>
+
+### Accessibility
 <details><summary></summary>
 
 </details>
 
-- CSS validation
-<details><summary></summary>
-
+### Performance
+<details><summary>Desktop Screenshot</summary>
+<img src = ./document/performance-desktop.png>
 </details>
 
-- JavaScript Validation
-<details><summary></summary>
-
+<details><summary>Mobile Screenshot</summary>
+<img src = ./document/performance-desktop.png>
 </details>
 
-- Accessibility
-<details><summary></summary>
-
-</details>
-
-- Performance
-<details><summary></summary>
-
-</details>
+### Browser Compatability
+The website was tested on the following browsers:
+ - Mozzilla Firefox
+ - Google Chrome
+ - Opera
 
 ## Bugs
 
