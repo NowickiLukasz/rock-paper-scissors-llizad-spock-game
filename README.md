@@ -1,3 +1,10 @@
+
+<img src = ./document/rpsls-responsive.png>
+
+- [Live Link](https://nowickilukasz.github.io/rock-paper-scissors-llizad-spock-game/)
+- [Repository](https://github.com/NowickiLukasz/rock-paper-scissors-llizad-spock-game)
+
+
 # Rock, Paper, Scissors, Lizard, Spock Game
 
 ## Table of content
@@ -19,9 +26,6 @@
     - [Making a Local Clone](#making-a-local-clone)
 6. [Credits](#credits)
     - [Code](#code)
-
-- [Live Link](https://nowickilukasz.github.io/rock-paper-scissors-llizad-spock-game/)
-- [Repository](https://github.com/NowickiLukasz/rock-paper-scissors-llizad-spock-game)
 
 ## User Experience 
 
