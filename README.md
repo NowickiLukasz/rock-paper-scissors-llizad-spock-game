@@ -7,7 +7,7 @@
     - [Design](#design)
     - [Wireframe](#wireframe)
 2. [Features](#features)
-3. [Technologies Used](#techonologie-used)
+3. [Technologies Used](#techonologies-used)
     - [Language Used](#languages-used)
     - [Programs Used](#programs-used)
 4. [Testing](#testing)
