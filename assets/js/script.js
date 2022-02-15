@@ -1,3 +1,5 @@
+// jshint esversion: 6
+
 let playerChoiceOption;
 let computerChoiceOption;
 
@@ -167,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let oldScore = parseInt(document.getElementById('player-score').innerText);
         document.getElementById('player-score').innerText = ++oldScore;
         if (oldScore == 5){
-            alert("Player wins!")
+            alert("Player wins!");
             endGame();
         }
     }
@@ -187,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let oldScore = parseInt(document.getElementById("tie").innerText);
         document.getElementById("tie").innerText = ++oldScore;
         if (oldScore == 5){
-            alert("Its a Tie!")
+            alert("Its a Tie!");
             endGame();
         }
     }
