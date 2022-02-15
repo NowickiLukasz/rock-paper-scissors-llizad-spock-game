@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let oldScore = parseInt(document.getElementById('pc-score').innerText);
         document.getElementById('pc-score').innerText = ++oldScore;
         if (oldScore == 5){
-            alert("PC wins!")
+            alert("PC wins!");
             endGame();
         }
     }
