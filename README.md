@@ -19,6 +19,11 @@
     - [Programs Used](#programs-used)
 4. [Testing](#testing)
     - [Further Testing](#further-testing)
+        - [HTML Validation](#html-validation)
+        - [CSS Validation](#css-validation)
+        - [JavaScript Validation](#javascript-validation)
+        - [Performance](#performance)
+        - [Browser Compatability](#browser-compatability)
     - [Bugs](#bugs)
 5. [Depoyment](#deployment)
     - [GitHub Pages](#github-pages)
@@ -95,7 +100,8 @@
 
 - First time Visitor
     1. As a first time visitor, I want to easily understand the purpose of the site.        
-        <details><summary>The game page has a clear title of what the page represents.</summary><img src=./document/rpsls-header.png>
+        <details><summary>The game page has a clear title of what the page represents.</summary>
+        <img src=./document/rpsls-header.png>
         </details> 
     2. As a first time visitor, I want to be able to navigate the site with ease.
          <details><summary>The site is consise with 5 buttons to control the game. </summary>
@@ -130,32 +136,30 @@
 ### Validation
 
 ### HTML Validation
+The validator shows 1 warning, this is due to an empty heading, which is filled with text, once the game buttons are clicked. 
 <details><summary>Screenshot</summary>
-<img src = ./document/rpsls-html.png>
+<img src=./document/rpsls-html.png>
 </details>
 
 ### CSS validation
+The Validator shows no errors. 
 <details><summary>Screenshot</summary>
-<img src = ./document/rpsls-css.png>
+<img src=./document/rpsls-css.png>
 </details>
 
 ### JavaScript Validation
+The validator shows no warnings. 
 <details><summary>Screenshot</summary>
-<img src = ./document/rpsls-jshint.png>
-</details>
-
-### Accessibility
-<details><summary></summary>
-
+<img src=./document/rpsls-jshint.png>
 </details>
 
 ### Performance
 <details><summary>Desktop Screenshot</summary>
-<img src = ./document/performance-desktop.png>
+<img src=./document/performance-desktop.png>
 </details>
 
 <details><summary>Mobile Screenshot</summary>
-<img src = ./document/performance-desktop.png>
+<img src=./document/performance-desktop.png>
 </details>
 
 ### Browser Compatability
