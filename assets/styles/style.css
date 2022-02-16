@@ -19,7 +19,6 @@ body{
     border-radius: 50px;
     text-align: center;
     background-color: #d8bfd8;
-    
 }
 
 /*Title sectino of game*/
@@ -82,7 +81,6 @@ div button{
     text-decoration: none;
 }
 
-
 /*Mobile device styling */
 @media screen and (min-width: 320px) and (max-width:480px) {
     #container{
@@ -98,7 +96,6 @@ div button{
         width:90%;
         border-radius: 0px;
     }
-    
 }
 
 /*Stying for image on smaller screens */
@@ -108,15 +105,12 @@ div button{
     }
 }
 
-
 /*Tablet device styling */
 @media screen and (min-width: 481px) and (max-width:768px) {
     #container{
         width:70%;
     }
 }
-
-/*Responsive design*/
 
 /*Desktop styling */
 @media screen and (max-width:1200px) {
