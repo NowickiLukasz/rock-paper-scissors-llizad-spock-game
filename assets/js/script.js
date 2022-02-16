@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function(){
         }else{
             button.addEventListener("click", playerChoice);
         }
-               
     }
 
     /** Selects buttons by attribute type */
@@ -33,12 +32,9 @@ document.addEventListener("DOMContentLoaded", function(){
 
     /** Game logic */
     function playRound(){
-        
         computerChoice();
         winner = playGame();
         displayRoundOutcome(winner);
-        
-    
     }
 
     // Code to grab random array item was used from this link: https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array
@@ -160,7 +156,6 @@ document.addEventListener("DOMContentLoaded", function(){
             incrementIncorrectAnswer();
             return "pc";
         }
-        
     }   
 
     // Correct answer incrementation and looks for final score to restart the game
